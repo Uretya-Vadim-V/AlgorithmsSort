@@ -43,63 +43,63 @@ namespace TimeSortTest
         public void Bubble()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.Bubble(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void Cocktail()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.Cocktail(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void Insertion()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.Insertion(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void Gnome()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.Gnome(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void SelectionMinimum()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.SelectionMinimum(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void SelectionMaximum()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.SelectionMaximum(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void DoubleSidedSelection()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.DoubleSidedSelection(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void Comb()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.Comb(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
         [Fact]
         public void Shell()
         {
             Fill(array);
-            Sort.Stupid(array); 
+            Sort.Shell(array); 
             Assert.Equal(Comparer(array, CopySort(array)), true);
         }
     }
